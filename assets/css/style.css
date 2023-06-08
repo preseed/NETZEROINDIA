@@ -3,7 +3,15 @@ body, html {
     margin: 0;
     background-color: black;
   }
+
+  h2, h3, h4{
+    font-family: Monsterrat;
+  }
   
+   h3{
+    color: rgb(192, 192, 192);   
+   }
+
   .bgimg {
     background-image: url('/w3images/forestbridge.jpg');
     height: 100%;
