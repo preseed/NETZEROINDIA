@@ -4,8 +4,16 @@ body, html {
     background-color: black;
   }
 
-  h2, h3, h4{
+  h2, h3, h4, p{
     font-family: Monsterrat;
+  }
+
+  p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.7;
+    width: 90%;
+    margin: 0 auto 0 auto;
   }
   
    h3{
@@ -37,7 +45,7 @@ body, html {
   
   .middle {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -52,5 +60,29 @@ body, html {
         background: linear-gradient(to right, orange , white, green);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+   }
+
+   @media screen and (max-width: 700px) {
+    p{
+      width: 500px;
+    }
+   }
+   @media screen and (max-width: 550px) {
+    p{
+      width: 400px;
+    }
+   }
+   @media screen and (max-width: 450px) {
+    p{
+      width: 300px;
+    }
+   }
+   @media screen and (max-width: 350px) {
+    p{
+      width: 220px;
+    }
+    .middle{
+      top: 80%;
+    }
    }
    
